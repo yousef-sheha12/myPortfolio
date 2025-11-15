@@ -25,7 +25,7 @@ const Header = () => {
               {/* <Link to="/projects">Projects</Link> */}
             {/* </li> */}
           </ul>
-          <div className="dropdown dropdown-end mr-5">
+          <div className="dropdown dropdown-end mr-3">
             <div
               tabIndex={0}
               role="button"
