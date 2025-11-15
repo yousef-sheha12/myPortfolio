@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import image from "/src/assets/WhatsApp Image 2025-10-30 at 17.03.49_9ecdf8d2.jpg"
 const Header = () => {
   return (
     <div>
-      <div className="navbar bg-base-300 shadow-sm ">
+      <div className="navbar bg-base-300 shadow">
         <div className="flex-1">
           <Link to="/" className="btn btn-ghost text-xl">
             My Portfolio
           </Link>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-4">
+          <ul className="menu menu-horizontal px-5">
             <li>
               <Link to="/">About</Link>
             </li>
@@ -36,7 +36,7 @@ const Header = () => {
                 
                 <img
                   alt="Tailwind CSS Navbar component"
-                  src="src/assets/WhatsApp Image 2025-10-30 at 17.03.49_9ecdf8d2.jpg"
+                  src={image}
                 />
                 
               </div>

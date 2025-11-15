@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from '/src/assets/IMG-20250816-WA0026.jpg'
 const About = () => {
   return (
     <div className="flex justify-center">
@@ -15,7 +15,7 @@ const About = () => {
 
         <img
           className="w-[60%] h-85 md:h-140 md:w-[50%] lg:w-[40%] lg:h-160 animate-pulse"
-          src="/src/assets/IMG-20250816-WA0026.jpg"
+          src={img}
           alt="yousef sheha"
         />
 
