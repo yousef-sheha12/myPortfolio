@@ -10,7 +10,7 @@ const Header = () => {
             My Portfolio
           </Link>
         </div>
-        <div className="flex-none">
+        <div className="flex justify-center items-center">
           <ul className="menu menu-horizontal px-4">
             <li>
               <Link to="/" className='text-[20px]'>About</Link>
@@ -25,7 +25,7 @@ const Header = () => {
               {/* <Link to="/projects">Projects</Link> */}
             {/* </li> */}
           </ul>
-          <div className="dropdown dropdown-end">
+          <div className="dropdown dropdown-end mr-5">
             <div
               tabIndex={0}
               role="button"
