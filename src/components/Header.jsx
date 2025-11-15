@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import image from "/src/assets/WhatsApp Image 2025-10-30 at 17.03.49_9ecdf8d2.jpg"
 const Header = () => {
   return (
-    <div>
+    <div className='sm:w-full'>
       <div className="navbar bg-base-300 shadow">
         <div className="flex-1">
           <Link to="/" className="btn btn-ghost text-xl">
@@ -11,15 +11,15 @@ const Header = () => {
           </Link>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-5">
+          <ul className="menu menu-horizontal px-4">
             <li>
-              <Link to="/">About</Link>
+              <Link to="/" className='text-[20px]'>About</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" className='text-[20px]'>Contact</Link>
             </li>
             <li>
-              <Link to="/skills">Skills</Link>
+              {/* <Link to="/skills">Skills</Link> */}
             </li>
             {/* <li>
               {/* <Link to="/projects">Projects</Link> */}
