@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import image from "/src/assets/WhatsApp Image 2025-10-30 at 17.03.49_9ecdf8d2.jpg"
 const Header = () => {
   return (
-    <div className='sm:w-full'>
+    <div className='sm:w-full flex flex-row'>
       <div className="navbar bg-base-300 shadow">
         <div className="flex-1">
           <Link to="/" className="btn btn-ghost text-xl">
             My Portfolio
           </Link>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex-none justify-center items-center">
           <ul className="menu menu-horizontal px-4">
             <li>
               <Link to="/" className='text-[20px]'>About</Link>
